@@ -15,11 +15,11 @@ function About() {
         <Description>
           <div>
             <h2>Glimpse of Parallax 2022</h2>Following the immense success of
-            last year's 'Parallax 22,' which had over 50 teams take part, we're
-            all set to raise the bar for 2023. Para, inspired by cutting-edge
+            'Parallax 22,' which had over 50 teams take part, we're
+            all set to raise the bar for 2024. Inspired by cutting-edge
             technology and innovation, promises to be even more remarkable.
             <br></br>
-            <br></br>Parallax, now in its third consecutive year, is a 24-hour
+            <br></br>Parallax24, now in its third consecutive year, is a 24-hour
             UI/UX designathon organized by the Rotaract club of IIT. This event
             has consistently ignited the creativity of participants, pushing
             them to be future thinkers and creators. It's a platform that
