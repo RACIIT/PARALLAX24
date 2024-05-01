@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 import styled from "styled-components";
 
 function ScheduleDate({ date, title, description, isRight }) {
@@ -19,7 +19,7 @@ function ScheduleDate({ date, title, description, isRight }) {
               cy="25"
               r="6"
               stroke="#00FDCF"
-              stroke-width="2.5"
+              strokeWidth="2.5"
               fill="none"
             />
           </svg>

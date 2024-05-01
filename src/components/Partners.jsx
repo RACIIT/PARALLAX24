@@ -25,12 +25,12 @@ function Contact() {
         </Sponsor>
       </Sponsors> */}
       <Contacts>
-        <TextBox>
+        {/* <TextBox>
           Made by{" "}
           <a href="https://www.linkedin.com/in/tufayl-asaf-891074200/">
             Tufayl
           </a>
-        </TextBox>
+        </TextBox> */}
         <SocialLinks>
           <div>
             <SocialIcon
@@ -63,7 +63,8 @@ function Contact() {
             />
           </div>
           <div>
-            <p>© 2023 Rotaract Club of IIT. All Rights Reserved.</p>
+            <p>© 2024 Rotaract Club of IIT. All Rights Reserved.</p>
+            <p style={{fontSize:"0.7rem"}}><a href="https://www.linkedin.com/in/tufayl-asaf-891074200/">made by tufayl</a></p>
           </div>
         </SocialLinks>
         <img src="./src/assets/RotaractLogo.png" alt="" />
@@ -81,7 +82,7 @@ const Container = styled.div`
   background-color: black;
   overflow: hidden;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-even;
   flex-direction: column;
 `;
 

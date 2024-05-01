@@ -1,6 +1,8 @@
-import React, { useState, useEffect } from "react";
+/* eslint-disable no-undef */
+import{  useState, useEffect } from "react";
 import styled from "styled-components";
 import Popup from "./Popup";
+import '../index.css'
 // import $ from "jquery";
 
 function Register() {
@@ -26,7 +28,7 @@ function Register() {
   return (
     <Container id="register">
       <Heading>
-        <span class="fancy">Register</span>
+        <span className="fancy">Register</span>
       </Heading>
 
       <RegForm>
@@ -49,7 +51,7 @@ function Register() {
                   id="1783007250"
                   type="text"
                   name="entry.1783007250"
-                  class="form-control"
+                  className="form-control"
                   required
                 />
                 <span className="highlight"></span>
@@ -64,7 +66,7 @@ function Register() {
                   id="481144994"
                   type="text"
                   name="entry.481144994"
-                  class="form-control"
+                  className="form-control"
                   required
                 />
                 <span className="highlight"></span>
@@ -79,7 +81,7 @@ function Register() {
                   id="906048821"
                   type="email"
                   name="entry.906048821"
-                  class="form-control"
+                  className="form-control"
                   required
                 />
                 <span className="highlight"></span>
@@ -94,7 +96,7 @@ function Register() {
                   id="930683255"
                   type="number"
                   name="entry.930683255"
-                  class="form-control"
+                  className="form-control"
                   required
                 />
                 <span className="highlight"></span>
@@ -114,7 +116,7 @@ function Register() {
                     id="1159576944"
                     type="text"
                     name="entry.1159576944"
-                    class="form-control"
+                    className="form-control"
                     required
                   />
                   <span className="highlight"></span>
@@ -128,7 +130,7 @@ function Register() {
                     id="313829387"
                     type="text"
                     name="entry.313829387"
-                    class="form-control"
+                    className="form-control"
                     required
                   />
                   <span className="highlight"></span>
@@ -145,7 +147,7 @@ function Register() {
                     id="1898053825"
                     type="text"
                     name="entry.1898053825"
-                    class="form-control"
+                    className="form-control"
                     required
                   />
                   <span className="highlight"></span>
@@ -159,7 +161,7 @@ function Register() {
                     id="854381478"
                     type="text"
                     name="entry.854381478"
-                    class="form-control"
+                    className="form-control"
                     required
                   />
                   <span className="highlight"></span>
@@ -176,7 +178,7 @@ function Register() {
                     id="233607411"
                     type="text"
                     name="entry.233607411"
-                    class="form-control"
+                    className="form-control"
                   />
                   <span className="highlight"></span>
                   <span className="bar"></span>
@@ -187,7 +189,7 @@ function Register() {
                     id="1630433861"
                     type="text"
                     name="entry.1630433861"
-                    class="form-control"
+                    className="form-control"
                   />
                   <span className="highlight"></span>
                   <span className="bar"></span>
@@ -201,7 +203,7 @@ function Register() {
                       id="1489785759"
                       type="text"
                       name="entry.1489785759"
-                      class="form-control"
+                      className="form-control"
                     />
                     <span className="highlight"></span>
                     <span className="bar"></span>
@@ -212,7 +214,7 @@ function Register() {
                       id="375608239"
                       type="text"
                       name="entry.375608239"
-                      class="form-control"
+                      className="form-control"
                     />
                     <span className="highlight"></span>
                     <span className="bar"></span>
@@ -225,7 +227,7 @@ function Register() {
           {/* <input type="hidden" name="fvv" value="1" />
           <input type="hidden" name="fbzx" value="-104354605009253379" />
           <input type="hidden" name="pageHistory" value="0,1" /> */}
-          <div class="buttons">
+          <div className="buttons">
             <button
               //   disabled
               id="backBtn"
@@ -312,6 +314,7 @@ const RegForm = styled.div`
 
 const InputFields = styled.div`
   display: flex;
+  color:#fff
   background-color: rgba(255, 255, 255, 0.25);
   /* width: 75%; */
   justify-content: center;

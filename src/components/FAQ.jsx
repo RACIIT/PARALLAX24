@@ -6,13 +6,13 @@ function FAQ() {
   return (
     <Container id="faq">
       <Heading>
-        <span class="fancy">FAQ</span>
+        <span className="fancy">FAQ</span>
       </Heading>
 
       <AccordionItem
-        title={"How many members can be in one Team?"}
+        title={"How many members can be in a team?"}
         content={
-          "We allow teams to apply who have no less than 2 and no more than 4 members."
+          "A team can have between 2-4 partipants."
         }
         delay={0}
       />
@@ -22,16 +22,9 @@ function FAQ() {
         delay={100}
       />
       <AccordionItem
-        title={"How's the judging go down?"}
-        content={
-          "Winners will be announced from the top 10 teams, our panel of design experts will evaluate based on creativity, functionality, user experience, and theme adherence."
-        }
-        delay={200}
-      />
-      <AccordionItem
         title={"Do I need previous design experience?"}
         content={
-          "Whether you're a seasoned designer or just starting, everyone is welcome to bring their unique perspective to the table."
+          "Whether you're a seasoned designer or just starting out, everyone is welcome to participate in the competition."
         }
         delay={300}
       />
@@ -43,7 +36,7 @@ function FAQ() {
       <AccordionItem
         title={"How do I submit my design?"}
         content={
-          "Details on submission guidelines will be provided just before the initial round begins."
+          "Details on submission guidelines will be provided just before the competition begins."
         }
         delay={400}
       />

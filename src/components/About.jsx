@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import styled from "styled-components";
 import FlipCard from "./FlipCard";
@@ -6,7 +7,7 @@ function About() {
   return (
     <Container id="about">
       <Heading>
-        <span class="fancy">About</span>
+        <span className="fancy">About</span>
       </Heading>
       <Wrapper>
         <Logo>
@@ -101,7 +102,7 @@ const Logo = styled.div`
 
   @media (max-width: 1150px) {
     img {
-      max-width: 50%;
+      max-width: 110%;
     }
   }
 `;

@@ -1,5 +1,6 @@
+/* eslint-disable react/prop-types */
 // Popup.js
-import React from "react";
+
 import styled from "styled-components";
 
 const Popup = ({ message, onClose, btnMsg }) => {

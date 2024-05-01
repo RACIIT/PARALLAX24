@@ -176,6 +176,7 @@ form {
 
 @media (max-width: 768px) {
   input {
+    color: #fff;
     width: 200px;
   }
 
