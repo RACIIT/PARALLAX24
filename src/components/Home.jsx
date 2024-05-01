@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 
@@ -10,8 +11,8 @@ function Home() {
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
-
-  const deadline = "December, 17, 2023";
+  
+  const deadline = "May, 9, 2024";
 
   useEffect(() => {
     const interval = setInterval(() => {
