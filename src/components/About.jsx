@@ -31,7 +31,7 @@ function About() {
         </Description>
       </Wrapper>
       <SubContainer>
-        <h1>How it Works?</h1>
+        {/* <h1>How it Works?</h1> */}
         <CardContainer>
           {/* <Zoom delay={150}>
             <FlipCard
@@ -97,12 +97,12 @@ const Logo = styled.div`
   justify-content: center;
 
   img {
-    width: 120%;
+    width: 130%;
   }
 
   @media (max-width: 1150px) {
     img {
-      max-width: 110%;
+     width: 110%;
     }
   }
 `;

@@ -8,6 +8,7 @@ import NavBar from "./components/NavBar";
 import Register from "./components/Register";
 import Schedule from "./components/Schedule";
 import FAQ from "./components/FAQ";
+import Workshop from "./components/workshop";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
         {/* <Guidelines /> */}
         <Schedule />
         <Awards />
-        <Register />
+        <Workshop/>
+        <Register/>
         <FAQ />
         <Partners />
       </div>
