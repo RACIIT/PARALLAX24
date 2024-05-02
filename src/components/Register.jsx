@@ -27,8 +27,11 @@ function Register() {
 
   return (
     <Container id="register">
+      <ButtonGroup>
+            <RegisterButton href="https://forms.gle/mA8Pnw5B5zAV9AgDA">Register Now For The Workshop</RegisterButton>
+      </ButtonGroup>
       <Heading>
-        <span className="fancy">Register</span>
+        <span className="fancy">Register Team</span>
       </Heading>
 
       <RegForm>
@@ -304,7 +307,60 @@ const Container = styled.div`
   padding-top: 80px;
 `;
 
-const Heading = styled.h1.attrs({ className: "heading" })``;
+const Heading = styled.h1.attrs({ className: "heading" })`
+  @media (max-width: 1150px) {
+    span {
+      font-size: 50 rem;
+    }
+  }
+  @media (min-width: 768px) {
+    span {
+      font-size: 2 rem;
+    }
+  }
+`;
+
+const ButtonGroup = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 5px;
+`;
+
+const RegisterButton = styled.a`
+  margin-bottom: 50px;
+  text-decoration: none;
+  border: 3px solid white;
+  padding: 15px 25px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  transition: all ease-in-out 0.2s;
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  font-weight: 600;
+
+  &:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+  }
+
+  @media (max-width: 1150px) {
+    button {
+      font-size: 50 rem;
+    }
+  }
+  @media (min-width: 768px) {
+    button {
+      font-size: 10 rem;
+    }
+  }
+`;
 
 const RegForm = styled.div`
   width: 100%;
