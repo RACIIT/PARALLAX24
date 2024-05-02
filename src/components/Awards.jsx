@@ -9,20 +9,20 @@ function Awards() {
       </Heading>
       <TrophyContainer>
         <TrophyCard lower={"50px"}>
-          <TrophyImg src="./src/assets/images/trophy.png"></TrophyImg>
+          <TrophyImg src="/images/trophy.png"></TrophyImg>
           <Place outlineColor={"#c0c0c0"}>2nd Place</Place>
           <Price>Rs. 10,000</Price>
           <Shine></Shine>
         </TrophyCard>
         <TrophyCard lower={"0px"}>
-          <TrophyImg src="./src/assets/images/trophy.png"></TrophyImg>
+          <TrophyImg src="/images/trophy.png"></TrophyImg>
           <Place outlineColor={"#FFD700"}>Winner</Place>
           <Price>Rs. 15,000</Price>
           <Shine></Shine>
         </TrophyCard>
         <TrophyCard lower={"50px"}>
           <Shine></Shine>
-          <TrophyImg src="./src/assets/images/trophy.png"></TrophyImg>
+          <TrophyImg src="/images/trophy.png"></TrophyImg>
           <Place outlineColor={"#cd7f32"}>3rd Place</Place>
           <Price>Rs. 5,000</Price>
         </TrophyCard>

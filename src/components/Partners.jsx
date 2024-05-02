@@ -67,7 +67,7 @@ function Contact() {
             <p style={{fontSize:"0.7rem"}}><a href="https://www.linkedin.com/in/tufayl-asaf-891074200/">made by tufayl</a></p>
           </div>
         </SocialLinks>
-        <img src="./src/assets/RotaractLogo.png" alt="" />
+        <img src="/images/RotaractLogo.png" alt="" />
       </Contacts>
     </Container>
   );

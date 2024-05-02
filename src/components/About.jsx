@@ -11,7 +11,7 @@ function About() {
       </Heading>
       <Wrapper>
         <Logo>
-          <img src="./src/assets/about.png" alt="" />
+          <img src="/images/about.png" alt="" />
         </Logo>
         <Description>
           <div>

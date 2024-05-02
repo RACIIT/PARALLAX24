@@ -31,7 +31,7 @@ function NavBar() {
     <div>
       <Container id="scrollingDiv">
         <Logo>
-          <img src="/parallaxlogo.png" alt="" />
+          <img src="/images/parallaxlogo.png" alt="" />
           {/* <img
             src="./src/assets/RotaractLogo.png"
             alt=""

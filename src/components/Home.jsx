@@ -51,7 +51,7 @@ function Home() {
     <Container id="home">
       <Content>
         <BackgroundVideo autoPlay loop muted>
-          <source src="./src/assets/videos/video2.mp4" type="video/mp4" />
+          <source src="/images/video2.mp4" type="video/mp4" />
         </BackgroundVideo>
         <Slogan>
           The <Extra>Ultimate</Extra> 24 Hour Competition
