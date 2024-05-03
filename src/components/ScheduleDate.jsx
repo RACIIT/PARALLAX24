@@ -10,7 +10,12 @@ function ScheduleDate({ date, title, description, isRight }) {
     return (
       <Section className={crossClass}>
         <RDetails>
-          <h3>{new Date(date).toDateString()}</h3>
+          {date !== "To Be Announced" ? (
+            <h3>{new Date(date).toDateString()}</h3>
+          ) : (
+            <h3>{date}</h3>
+          )}
+
         </RDetails>
         <CenterPiece>
           <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
