@@ -12,7 +12,7 @@ function Home() {
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
   
-  const deadline = "May, 9, 2024";
+  const deadline = "May, 3, 2024";
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -93,7 +93,10 @@ function Home() {
           )}
         </Timer>
         <ButtonGroup>
-          <RegisterButton href="#register">Register Now</RegisterButton>
+        {new Date().getTime() < deadline && (
+             <RegisterButton href="#register">Register Now</RegisterButton>
+          )}
+       
         </ButtonGroup>
       </Content>
     </Container>
