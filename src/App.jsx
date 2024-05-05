@@ -2,7 +2,6 @@ import "./App.css";
 import About from "./components/About";
 import Awards from "./components/Awards";
 import Partners from "./components/Partners";
-import Guidelines from "./components/Guidelines";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Register from "./components/Register";

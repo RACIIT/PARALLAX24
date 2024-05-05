@@ -12,24 +12,25 @@ function Schedule() {
       <ScheduleDate
           isRight={true}
           date="2024-05-04"
-          title="UI/UX Workshop : Figma Fundamentls"
-          description="Join in to know the fundamentals of design using Figma. Get ready to start your journey in the field of UI/UX"
-        />
-        <ScheduleDate
-          isRight={false}
-          date="2024-05-05"
           title="Registration Opening"
           description="Registration is now open! Gather your team of 2 to 4 members and get ready for an outstanding hackathon that seamlessly integrates UX design. Join us for a unique experience!"
         />
+      <ScheduleDate
+          isRight={false}
+          date="2024-05-04"
+          title="UI/UX Workshop : Figma Fundamentls"
+          description="Join in to know the fundamentals of design using Figma. Get ready to start your journey in the field of UI/UX"
+        />
+      
          <ScheduleDate
           isRight={true}
-          date="2024-05-10"
+          date="2024-05-05"
           title="Registration Closing"
-          description="Registrations will be officially closing at 12:00PM!! Prepare your team for a mindblowing journey in  UI/UX designing"
+          description="Due to limited slots available, we have reached maximum capacity. Registrations will be officially closed."
         />
          <ScheduleDate
           isRight={false}
-          date="2024-05-10"
+          date="2024-05-09"
           title="Awareness Session"
           description="A session that will give a run through of all rules and regulations of the final competition for the registered teams"
         />
