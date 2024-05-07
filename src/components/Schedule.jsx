@@ -49,8 +49,8 @@ function Schedule() {
         /> */}
         <ScheduleDate
           isRight={true}
-          // date="2024-05-11"
-          date="To Be Announced"
+          date="2024-05-11"
+          // date="To Be Announced"
           title=" The 24 Hour Designathon"
           description="The designathon will commence at 09:30AM. The teams will be given a specific theme that they could work on"
         />
